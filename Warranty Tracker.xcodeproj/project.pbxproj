@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043A71C6BB2ADC430D594EAC /* Pods_Warranty_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6109042709CA601E971C925 /* Pods_Warranty_Tracker.framework */; };
+		9332AFE226664DF500A3CF6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332AFE126664DF500A3CF6E /* AppDelegate.swift */; };
+		9332AFE426664DF500A3CF6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332AFE326664DF500A3CF6E /* SceneDelegate.swift */; };
+		9332AFE926664DF500A3CF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9332AFE726664DF500A3CF6E /* Main.storyboard */; };
+		9332AFEB26664DF600A3CF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9332AFEA26664DF600A3CF6E /* Assets.xcassets */; };
+		9332AFEE26664DF600A3CF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9332AFEC26664DF600A3CF6E /* LaunchScreen.storyboard */; };
+		93441A3926666DD40024C932 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93441A3826666DD40024C932 /* LoginViewController.swift */; };
+		93441A3C26666DEA0024C932 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93441A3B26666DEA0024C932 /* SignUpViewController.swift */; };
+		93BBD7A3266A3590000219A5 /* AddNewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBD7A2266A3590000219A5 /* AddNewProductViewController.swift */; };
+		93C70F9726691336008FE92D /* mainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C70F9626691336008FE92D /* mainListViewController.swift */; };
+		93CFE22D266A964A00AA14EE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFE22C266A964A00AA14EE /* Product.swift */; };
+		93DE0A8E266CC994008FBD80 /* UserPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE0A8D266CC994008FBD80 /* UserPropertiesViewController.swift */; };
+		93DE0A90266CF704008FBD80 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DE0A8F266CF704008FBD80 /* ProductViewController.swift */; };
+		93DE0A92266D2A5F008FBD80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93DE0A91266D2A5F008FBD80 /* GoogleService-Info.plist */; };
+		93FC9D4A2667947600F98842 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC9D492667947600F98842 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23DDEDC1DD127308ADE5BA47 /* Pods-Warranty Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Warranty Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Warranty Tracker/Pods-Warranty Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		9332AFDE26664DF500A3CF6E /* Warranty Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warranty Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9332AFE126664DF500A3CF6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9332AFE326664DF500A3CF6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9332AFE826664DF500A3CF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9332AFEA26664DF600A3CF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9332AFED26664DF600A3CF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9332AFEF26664DF600A3CF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93441A3826666DD40024C932 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		93441A3B26666DEA0024C932 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		93BBD7A2266A3590000219A5 /* AddNewProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewProductViewController.swift; sourceTree = "<group>"; };
+		93C70F9626691336008FE92D /* mainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainListViewController.swift; sourceTree = "<group>"; };
+		93CFE22C266A964A00AA14EE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		93DE0A8D266CC994008FBD80 /* UserPropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPropertiesViewController.swift; sourceTree = "<group>"; };
+		93DE0A8F266CF704008FBD80 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		93DE0A91266D2A5F008FBD80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93FC9D492667947600F98842 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B8866B0799B6005D262D6BD1 /* Pods-Warranty Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Warranty Tracker.release.xcconfig"; path = "Target Support Files/Pods-Warranty Tracker/Pods-Warranty Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		C6109042709CA601E971C925 /* Pods_Warranty_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Warranty_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9332AFDB26664DF500A3CF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043A71C6BB2ADC430D594EAC /* Pods_Warranty_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D447C824E7AB4D8794846AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6109042709CA601E971C925 /* Pods_Warranty_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93065A51266B872100418C09 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				93CFE22C266A964A00AA14EE /* Product.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		9332AFD526664DF500A3CF6E = {
+			isa = PBXGroup;
+			children = (
+				9332AFE026664DF500A3CF6E /* Warranty Tracker */,
+				9332AFDF26664DF500A3CF6E /* Products */,
+				B217E633C736798F9459CD25 /* Pods */,
+				3D447C824E7AB4D8794846AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9332AFDF26664DF500A3CF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9332AFDE26664DF500A3CF6E /* Warranty Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9332AFE026664DF500A3CF6E /* Warranty Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				93065A51266B872100418C09 /* Objects */,
+				93BBD79C266A352D000219A5 /* View Controllers */,
+				9332AFE126664DF500A3CF6E /* AppDelegate.swift */,
+				9332AFE326664DF500A3CF6E /* SceneDelegate.swift */,
+				9332AFE726664DF500A3CF6E /* Main.storyboard */,
+				9332AFEA26664DF600A3CF6E /* Assets.xcassets */,
+				9332AFEC26664DF600A3CF6E /* LaunchScreen.storyboard */,
+				9332AFEF26664DF600A3CF6E /* Info.plist */,
+				93DE0A91266D2A5F008FBD80 /* GoogleService-Info.plist */,
+				93FC9D492667947600F98842 /* Utils.swift */,
+			);
+			path = "Warranty Tracker";
+			sourceTree = "<group>";
+		};
+		93BBD79C266A352D000219A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				93441A3826666DD40024C932 /* LoginViewController.swift */,
+				93441A3B26666DEA0024C932 /* SignUpViewController.swift */,
+				93C70F9626691336008FE92D /* mainListViewController.swift */,
+				93BBD7A2266A3590000219A5 /* AddNewProductViewController.swift */,
+				93DE0A8D266CC994008FBD80 /* UserPropertiesViewController.swift */,
+				93DE0A8F266CF704008FBD80 /* ProductViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B217E633C736798F9459CD25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23DDEDC1DD127308ADE5BA47 /* Pods-Warranty Tracker.debug.xcconfig */,
+				B8866B0799B6005D262D6BD1 /* Pods-Warranty Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9332AFDD26664DF500A3CF6E /* Warranty Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9332AFF226664DF600A3CF6E /* Build configuration list for PBXNativeTarget "Warranty Tracker" */;
+			buildPhases = (
+				B38366FF2BE6FC692D45DC53 /* [CP] Check Pods Manifest.lock */,
+				9332AFDA26664DF500A3CF6E /* Sources */,
+				9332AFDB26664DF500A3CF6E /* Frameworks */,
+				9332AFDC26664DF500A3CF6E /* Resources */,
+				7A73AFC1499C2FC3721B727F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Warranty Tracker";
+			productName = "Warranty Tracker";
+			productReference = 9332AFDE26664DF500A3CF6E /* Warranty Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9332AFD626664DF500A3CF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9332AFDD26664DF500A3CF6E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9332AFD926664DF500A3CF6E /* Build configuration list for PBXProject "Warranty Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9332AFD526664DF500A3CF6E;
+			productRefGroup = 9332AFDF26664DF500A3CF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9332AFDD26664DF500A3CF6E /* Warranty Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9332AFDC26664DF500A3CF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9332AFEE26664DF600A3CF6E /* LaunchScreen.storyboard in Resources */,
+				93DE0A92266D2A5F008FBD80 /* GoogleService-Info.plist in Resources */,
+				9332AFEB26664DF600A3CF6E /* Assets.xcassets in Resources */,
+				9332AFE926664DF500A3CF6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A73AFC1499C2FC3721B727F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Warranty Tracker/Pods-Warranty Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Warranty Tracker/Pods-Warranty Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Warranty Tracker/Pods-Warranty Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38366FF2BE6FC692D45DC53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Warranty Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9332AFDA26664DF500A3CF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FC9D4A2667947600F98842 /* Utils.swift in Sources */,
+				93CFE22D266A964A00AA14EE /* Product.swift in Sources */,
+				93441A3926666DD40024C932 /* LoginViewController.swift in Sources */,
+				93DE0A90266CF704008FBD80 /* ProductViewController.swift in Sources */,
+				93DE0A8E266CC994008FBD80 /* UserPropertiesViewController.swift in Sources */,
+				93BBD7A3266A3590000219A5 /* AddNewProductViewController.swift in Sources */,
+				9332AFE226664DF500A3CF6E /* AppDelegate.swift in Sources */,
+				93C70F9726691336008FE92D /* mainListViewController.swift in Sources */,
+				9332AFE426664DF500A3CF6E /* SceneDelegate.swift in Sources */,
+				93441A3C26666DEA0024C932 /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9332AFE726664DF500A3CF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9332AFE826664DF500A3CF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9332AFEC26664DF600A3CF6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9332AFED26664DF600A3CF6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9332AFF026664DF600A3CF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9332AFF126664DF600A3CF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9332AFF326664DF600A3CF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DDEDC1DD127308ADE5BA47 /* Pods-Warranty Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG4G5ZC552;
+				INFOPLIST_FILE = "Warranty Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AdamMierov.Warranty-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9332AFF426664DF600A3CF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8866B0799B6005D262D6BD1 /* Pods-Warranty Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG4G5ZC552;
+				INFOPLIST_FILE = "Warranty Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AdamMierov.Warranty-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9332AFD926664DF500A3CF6E /* Build configuration list for PBXProject "Warranty Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9332AFF026664DF600A3CF6E /* Debug */,
+				9332AFF126664DF600A3CF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9332AFF226664DF600A3CF6E /* Build configuration list for PBXNativeTarget "Warranty Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9332AFF326664DF600A3CF6E /* Debug */,
+				9332AFF426664DF600A3CF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9332AFD626664DF500A3CF6E /* Project object */;
+}
