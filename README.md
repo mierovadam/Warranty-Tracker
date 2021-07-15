@@ -13,7 +13,6 @@ It helps to track how much time you have left on the product's warranty, No need
 ![add](https://user-images.githubusercontent.com/49271686/123091218-c34cac00-d431-11eb-8e4f-aebb134c79c7.png)
 
 ### View saved item:
-(receipt seems sharp and clear on iphone)
 ![view](https://user-images.githubusercontent.com/49271686/123091222-c3e54280-d431-11eb-8436-2b7ff27ba1e0.png)
 
 ### Properties (currently only holds logged in user email and signout button):
